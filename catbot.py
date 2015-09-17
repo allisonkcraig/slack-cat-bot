@@ -52,7 +52,7 @@ class slackbot(object):
 			
 if __name__ == "__main__":
 	
-	TOKEN = os.environ['SLACK_BOT_TOKEN']
+	TOKEN = os.environ['SLACK_TOKEN']
 	drunkoctopus = slackbot(TOKEN)
 	drunkoctopus.connect()
 	drunkoctopus.get_events()
