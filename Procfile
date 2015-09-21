@@ -1,1 +1,1 @@
-worker: python drunkoctopus.py
+worker: python catbot.py

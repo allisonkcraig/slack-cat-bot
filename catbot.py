@@ -43,12 +43,14 @@ class slackbot(object):
 		# look message words up in the drunkoctopus dictionary
 		
 		if "STAT" in message:
-			reply = "HERES YOURS CAT FAST"
+			reply = "DON'T RUSH CATS"
 			self.slack_client.rtm_send_message(channel, reply)
-		
+			return
+	
 		else: 
 			reply = random.choice(imageList)
 			self.slack_client.rtm_send_message(channel, reply)
+			return
 			
 if __name__ == "__main__":
 	
