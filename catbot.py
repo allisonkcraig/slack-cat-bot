@@ -7,8 +7,8 @@ from slackclient import SlackClient
 # DO_ALY_CHAN = "D0AQXL0CX"
 
 imageList = ["http://i.imgur.com/gbwgfw6.jpg", 
-			  "http://i.imgur.com/gbwgfw6.jpg",
-			  "http://i.imgur.com/gbwgfw6.jpg"]
+			  "http://www.washingtonpost.com/news/morning-mix/wp-content/uploads/sites/21/2014/09/Grumpy_Cat_Endorsement-017d7-ULFU.jpg",
+			  "http://globe-views.com/dcim/dreams/cat/cat-02.jpg"]
 
 class slackbot(object):
 	# a class for fun slackbots
